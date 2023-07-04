@@ -10,3 +10,8 @@ console.log("Shubham Bane")
         const resultElement = document.getElementById('result');
         resultElement.textContent = `The result of ${num1} * ${num2} is: ${result}`;
     
+
+
+window.onload = function() {
+  alert("The page has been reloaded.");
+};
